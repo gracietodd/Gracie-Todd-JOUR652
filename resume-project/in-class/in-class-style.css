@@ -17,3 +17,31 @@ body, h1, h2, h3, h4, h5, p, li{
   color: #33485e;
   text-transform: uppercase;
 }
+
+.section-title{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  background-color: #33485e;
+  color: white;
+  font-weight: 400;
+}
+
+.job-title{
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.job-organization{
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.job-date{
+  font-weight: 400;
+  font-size: 1em;
+  font-style: italic;
+}
+
+.details{
+  font-size: 1em;
+}
