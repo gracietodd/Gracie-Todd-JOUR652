@@ -1,23 +1,27 @@
+/*styles for my resume */
+
 .name{
   font-size: 3em;
   color: #33485e;
-  text-transform: capitalize;
+  text-transform: uppercase;
   text-align: center;
   font-weight: 700;
 }
 
 body, h1, h2, h3, h4, h5, p, li{
-  font-family: Open Sans, arial, sans-serif;
+  font-family: "Open Sans", arial, sans-serif;
   font-size: 1em;
   color: #444
 }
 
+/*banner name*/
 .title{
   font-size: 1.5em;
   color: #33485e;
   text-transform: uppercase;
 }
 
+/*section names*/
 .section-title{
   font-size: 1.5em;
   text-transform: uppercase;
@@ -26,22 +30,26 @@ body, h1, h2, h3, h4, h5, p, li{
   font-weight: 400;
 }
 
+/*job titles*/
 .job-title{
   font-weight: 700;
   font-size: 1.5em;
 }
 
+/*place of work*/
 .job-organization{
   font-weight: 400;
   font-size: 1.5em;
 }
 
+/*dates*/
 .job-date{
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
 }
 
+/*contact info, skills, education font size*/
 .details{
   font-size: 1em;
 }
