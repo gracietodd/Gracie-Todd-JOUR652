@@ -1,0 +1,10 @@
+h1{
+  font-size: 36px;
+  color: #33485e;
+}
+
+body, h1, h2, h3, h4, h5, p, li{
+  font-family: Open Sans, arial, sans-serif;
+  font-size; 1em;
+  color: #444
+}
