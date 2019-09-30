@@ -50,13 +50,18 @@ body, h1, h2, h3, h4, h5, p, li{
 }
 
 /*dates*/
-.job-date{
+.date{
   font-weight: 400;
   font-size: 1em;
   font-style: italic;
+  margin: 2 0 0 0;
 }
 
 /*contact info, skills, education font size*/
 .details{
   font-size: 1em;
+}
+
+.description{
+  margin: 10 0 20 0;
 }
