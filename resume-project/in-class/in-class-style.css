@@ -91,3 +91,16 @@ body, h1, h2, h3, h4, h5, p, li, div{
   color: #33485e;
   text-transform: uppercase;
 }
+
+.mission-statement{
+  width: 60%;
+  min-width: 300px;
+  margin: 0 auto 30 auto;
+}
+
+#container{
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 50 px;
+}
