@@ -1,0 +1,53 @@
+#byline{
+  font-size: 16px;
+  font-family: Helvetica Arial "sans-serif";
+  font-weight: bold;
+}
+
+h1{
+  font-size: 36px;
+  font-family: Helvetica "sans-serif";
+}
+
+h2{
+  font-size: 24px;
+  font-family: Helvetica "sans-serif";
+}
+
+h3{
+  font-size: 20px;
+  font-family: Helvetica "sans-serif";
+  font-style: italic;
+}
+
+p{
+  font-size: 18px;
+  font-family: Georgia "Times New Roman" serif;
+}
+
+.caption{
+  font-style: italic;
+}
+
+.banner{
+  width: 100%;
+}
+
+#content{
+  padding: 0px 60px;
+}
+
+.photo{
+  width: 100%;
+  padding: 20px 0px 0px 0px;
+}
+
+/*blockquote formatting*/
+blockquote{
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 20px;
+  margin: auto 0;
+  background-color: #F08080;
+}
