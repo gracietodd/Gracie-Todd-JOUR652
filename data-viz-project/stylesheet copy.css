@@ -1,0 +1,23 @@
+.headline{
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+h1, h2{
+  font-family: "Big Caslon", "Times New Roman", serif;
+}
+
+h1{
+  font-size: 50px;
+}
+
+p, byline, figcaption{
+  font-family: "Times New Roman", serif;
+  font-size: 20px;
+}
