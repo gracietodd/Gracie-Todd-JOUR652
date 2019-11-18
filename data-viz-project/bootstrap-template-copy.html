@@ -101,30 +101,47 @@
       </div>
 <!-- End Text Component -->
 
+<div graphics>
+
 <!-- First Graphic Container -->
+<div class="col-md-12 offset-md-3" graphics>
 <div class="graphic-container">
-   <h2>Examining the carnage</h2>
-   <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
+   <h2>Book Circulation at UMD Libraries</h2>
+   <p>Circulation has decreased steadily over the past decade, with the exception of a slight uptick in 2018.</p>
  <div id="myLineChart"></div>
- <em>Source: Data collected by The Washington Post</em>
+ <em>Source: University of Maryland Library System</em>
  </div>
+</div>
 <!-- End First Graphic Container -->
 
 <!--Second Graphic Container-->
+<div class="col-md-12 offset-md-3" graphics>
 <div class="graphic-container">
-  <h2>Where do school shootings occur?</h2>
- <div id="shootingsByAreaChart"></div>
- <em>Source: Data collected by The Washington Post</em>
+  <h2>Print v. eBook circulation in 2018 </h2>
+  <p>eBooks were accessed far more than print books.</p>
+ <div id="ebookvprintpie"></div>
+ <em>Source: University of Maryland Library System</em>
+</div>
 </div>
  <!-- End Second Graphic Container-->
 
  <!-- Third Graphic Container -->
+ <div class="col-md-12 offset-md-3" graphics>
 <div class="graphic-container">
   <h2>What race are school shooters likely to be?</h2>
   <div id="ShootersRaceChart"></div>
   <em>Source: Data collected by The Washington Post</em>
 </div>
+</div>
 <!-- End third graphic container -->
+
+<!-- Story Map -->
+<div class="col-md-12 offset-md-3" graphics>
+<iframe src="https://uploads.knightlab.com/storymapjs/3d13f57b390dd192da11378ec4b55a53/worst-school-shootings/draft.html" frameborder="0" width="100%" height="800"></iframe>
+</div>
+<!-- End Story Map -->
+
+</div>
 
 <!-- Start Footer -->
     <footer class="col-md-12">
@@ -153,10 +170,8 @@
        data: {
          x: 'x',
          columns: [
-           ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
-           ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
-           ['People Injured', 35, 3, 22, 7, 7, 9, 17, 16, 17, 5, 4, 6, 9, 8, 13, 14, 2, 18, 15, 44],
-           ['People Killed', 14, 4, 5, 1, 5, 3, 9, 9, 1, 5, 1, 3, 2, 32, 3, 6, 0, 2, 5, 21],
+           ['x', 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+           ['Number of incidents', 278158, 246731, 208698, 181838, 161836, 147441, 139150, 125398, 103955, 120132],
          ]
        },
        color: {
@@ -165,15 +180,13 @@
      });
 
      var chart2 = c3.generate({
-    bindto: '#shootingsByAreaChart',
+    bindto: '#ebookvprintpie',
     data: {
       columns: [
-        ['City', 101],
-        ['Suburb', 58],
-        ['Town', 24],
-        ['Rural', 31],
+        ['Print', 120132],
+        ['eBook', 1529631],
       ],
-      type: 'bar'
+      type: 'pie'
     },
     color: {
       pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
@@ -191,7 +204,7 @@
      ['Hispanic', 6],
      ['White', 60],
    ],
-   type : 'pie',
+   type : 'bar',
    onclick: function (d, i) { console.log("onclick", d, i); },
    onmouseover: function (d, i) { console.log("onmouseover", d, i); },
    onmouseout: function (d, i) { console.log("onmouseout", d, i); }
