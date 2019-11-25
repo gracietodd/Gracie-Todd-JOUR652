@@ -139,3 +139,8 @@ h3{
 .graphic-container h4{
   font-size: 1.5em;
 }
+
+.data-text{
+  background-color: #F8F8F8;
+  margin-bottom: 30px;
+}
