@@ -88,7 +88,8 @@
 <!-- Headline -->
 <div class=headline>
   <h1> An <span class="blue">American</span> Tragedy </h1>
-  <h2 class=sub> Over 200 school shootings in two decades. What have we learned?</h2>
+  <h2 class=sub> Over 200 school shootings in two decades.</h2>
+  <h2 class=sub> What have we learned?</h2>
 </div>
 <!-- End Headline -->
 
@@ -106,8 +107,10 @@
     <div class="row">
 <!-- End set up-->
 
-<div class="col-md-8 offset-md-2 first-text">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div class="col-md-8 offset-md-2">
+  <p class="first-text">In 1999, two young men killed 12 students and wounded 24 others at Columbine High School in Littleton, Colorado. The incident sparked a long series of school shootings in the United States that has continues to this day.</p>
+  <p>Not a single year has passed since 1999 without at least five school shootings in the U.S. There have been at least 214 school shootings since Columbine, according to newly released data by The Washington Post that examines school shootings at secondary and primary schools in the U.S since the Columbine shooting.</p>
+  <p>With little government or academic research into the phenomenon of school shootings, the Post’s data gives an important look into the specifics of school shootings in the U.S. Below we examine this data, alongside other available data sources, for insights about school shootings, school shooters and their victims.</p>
 </div>
 
 </div>
@@ -118,6 +121,15 @@
     <div class="row">
 <!-- End set up-->
 
+<!--photo-->
+<div class="col-md-10 offset-md-1">
+<figure>
+  <img class=stack-image src="alaina-petty.jpg" alt="Alaina Petty">
+  <figcaption class="caption">Alaina Petty, 14, Marjory Stoneman Douglas High School shooting victim</figcaption>
+</figure>
+</div>
+<!--end photo-->
+
 <!-- Start Text Component -->
       <div class="col-md-8 offset-md-2 reuse-text">
         <div class= "stars">
@@ -126,65 +138,175 @@
           <img "display: inline" src="star-red.png" class="star" width="15px" hspace="5px">
           <img "display: inline" src="star-blue.png" class="star" width="15px" hspace="5px">
         </div>
-        <h3> Chapter Title </h3>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam massa turpis, semper eleifend maximus commodo, aliquam ac tellus. Suspendisse nec suscipit lorem, at feugiat velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae porta mi, finibus posuere ex. Donec nisi lectus, dapibus quis lacinia nec, efficitur vel felis. Etiam vulputate, libero vel dapibus viverra, purus risus viverra nulla, eget fermentum orci nisi ut felis. Etiam suscipit iaculis mauris egestas ultricies. Quisque quis augue vestibulum nulla porttitor maximus vitae ut metus. Fusce risus odio, pellentesque eu cursus nec, efficitur id ante. Etiam maximus tempor eros, in porta diam. Nullam porttitor neque justo, a pellentesque arcu mattis eget. Proin ac sapien finibus, suscipit justo sed, tempor felis. Donec in enim posuere, auctor augue a, tincidunt purus. Praesent et erat porttitor, gravida arcu vel, dignissim tellus.</p>
-        <p>Pellentesque in magna mattis, mollis nunc sit amet, blandit odio. Maecenas nec imperdiet neque. Suspendisse fermentum malesuada est, vel varius nibh laoreet eu. Sed faucibus quam eget lorem sollicitudin, sit amet bibendum orci tincidunt. Mauris placerat, nibh eu posuere convallis, sem lectus viverra nibh, quis feugiat tortor quam ac odio. Morbi iaculis imperdiet diam, tempor scelerisque ipsum ornare in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam dignissim ultricies sapien, quis mattis mauris aliquam sit amet. Mauris dictum nulla ac ultrices auctor.</p>
-        <p>Penatibus et magnis dis parturient montes nascetur ridiculus mus. Sit amet luctus venenatis lectus magna fringilla. Proin sed libero enim sed faucibus turpis. Orci ac auctor augue mauris augue neque gravida in. Et magnis dis parturient montes nascetur ridiculus mus. Ac turpis egestas maecenas pharetra. Aliquam nulla facilisi cras fermentum odio. Cras semper auctor neque vitae. Massa massa ultricies mi quis hendrerit. Nunc sed blandit libero volutpat. Urna molestie at elementum eu facilisis sed odio morbi. Nibh venenatis cras sed felis eget velit aliquet sagittis. Sit amet nisl suscipit adipiscing.</p>
+        <h3>1. School shootings happen all over the U.S.</h3>
+        <p>At least five school school shootings have occurred every year since 1999, with an average number of 11 shootings per-year.  2006 and 2014 had the highest number of incidents with fifteen and sixteen school shootings, respectively. As can be seen the chart below, the past three years have remained consistently high, with at least a dozen incidents each year.</p>
+        <!-- Graphic container-->
+          <div class="graphic-container" graphics>
+                <h2>Shootings by year</h2>
+                <p>The number of shootings per year has generally remained high in the US since the turn of the century, with noticable dips in 2002, 2011 and 2015. The last three years, the number of shootings has been consistantly high.</p>
+                <div id="shootingsByYearChart"></div>
+                <em>Source: Data collected by The Washington Post</em>
+          </div>
+       <!-- END graphic container-->
+        <p>School shootings have occured all over the United States, as seen in the map below. In general, higher population areas have seen more incidents, with shootings clustered on the east and west coasts. California, which is the most populous state in the country, had 27 school shooting incidents since 1999, the most of any state. The next highest state was Florida with 16 school shootings since 1999.</p>
+        <!-- Story Map -->
+        <div class="graphic-container" graphics>
+          <h2>Story map: Worst school shootings since Columbine</h2>
+            <iframe src="https://uploads.knightlab.com/storymapjs/3d13f57b390dd192da11378ec4b55a53/worst-school-shootings/draft.html" frameborder="0" width="100%" height="800"></iframe>
+            <em>Source: The Washington Post, Stanford University</em>
+          </div>
+        <!-- End Story Map -->
+        <p>An analysis of the data shows that cities with the most number of school shootings tend to be large urban areas with high crime rates. Chicago, Los Angeles and Philadelphia top the list with five school shootings each. The data also reveals that the majority of shootings occur in places that would be considered “cities”, while just 14% occur in rural areas (see chart below).</p>
+        <!-- Graphic container-->
+        <div class="graphic-container" graphics>
+              <h2>Shootings by place</h2>
+              <p>Were incidents more likely to occur in cities, suburbs, towns, or rural areas?</p>
+              <div id="ruralvscity"></div>
+              <em>Source: Data collected by The Washington Post</em>
+        </div>
+        <!-- End Graphic container-->
+        <p>Almost all school shootings occur at public schools. According to the data collected by the Washington Post, only 5% of school shootings since 1999 have occured at a private school.</p>
       </div>
 <!-- End Text Component -->
-
-</div>
-</div>
 
 <!-- Start Text Component -->
-      <div class="col-md-8 offset-md-2">
-        <h2> Heading 2 </h2>
-        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam massa turpis, semper eleifend maximus commodo, aliquam ac tellus. Suspendisse nec suscipit lorem, at feugiat velit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae porta mi, finibus posuere ex. Donec nisi lectus, dapibus quis lacinia nec, efficitur vel felis. Etiam vulputate, libero vel dapibus viverra, purus risus viverra nulla, eget fermentum orci nisi ut felis. Etiam suscipit iaculis mauris egestas ultricies. Quisque quis augue vestibulum nulla porttitor maximus vitae ut metus. Fusce risus odio, pellentesque eu cursus nec, efficitur id ante. Etiam maximus tempor eros, in porta diam. Nullam porttitor neque justo, a pellentesque arcu mattis eget. Proin ac sapien finibus, suscipit justo sed, tempor felis. Donec in enim posuere, auctor augue a, tincidunt purus. Praesent et erat porttitor, gravida arcu vel, dignissim tellus.</p>
-        <p>Pellentesque in magna mattis, mollis nunc sit amet, blandit odio. Maecenas nec imperdiet neque. Suspendisse fermentum malesuada est, vel varius nibh laoreet eu. Sed faucibus quam eget lorem sollicitudin, sit amet bibendum orci tincidunt. Mauris placerat, nibh eu posuere convallis, sem lectus viverra nibh, quis feugiat tortor quam ac odio. Morbi iaculis imperdiet diam, tempor scelerisque ipsum ornare in. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam dignissim ultricies sapien, quis mattis mauris aliquam sit amet. Mauris dictum nulla ac ultrices auctor.</p>
+      <div class="col-md-8 offset-md-2 reuse-text">
+        <div class= "stars">
+          <img "display: inline" src="star-red.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-blue.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-red.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-blue.png" class="star" width="15px" hspace="5px">
+        </div>
+        <h3>2. The carnage of school shootings</h3>
+        <p>131 people have been killed in school shooting incidents in the United States since the Columbine massacre in 1999. The two deadliest years since have been 2012, when 26 people were killed at Sandy Hook Elementary School, and 2018, when 21 people were killed at Parkland High School. The chart below compared the number of people killed, the number of the people injured and the number of incidents by year since 1999.</p>
+        <!-- Graphic container-->
+        <div class="graphic-container" graphics>
+              <h2>Examining the carnage</h2>
+              <p>2012 was the deadliest year this century, with 32 fatalities, incidents occurred at Sandy Hook Elementary School in Newtown, Conn. and Oikos University on Oakland, Calif. that year.</p>
+              <div id="carnage"></div>
+              <em>Source: Data collected by The Washington Post</em>
+        </div>
+        <!-- End Graphic container-->
+        <p>Most school shootings are targeted, seeking to harm a specific individual or group. Over 60% of shootings fall into this category, followed by indiscriminate shootings and accidental. See the chart below for more details.</p>
+        <!-- Graphic container-->
+        <div class="graphic-container" graphics>
+              <h2>Shootings by type</h2>
+              <p>Targeted shootings are by far the most common, accounting for over 60 percent of school shootings by type.</p>
+              <div id="bytype"></div>
+              <em>Source: Data collected by The Washington Post</em>
+        </div>
+        <!-- End Graphic container-->
+        <p>In addition, a school resource officer was not present at the vast majority of school shooting incidents. According to the Washington Post data, officers were present in only 35 percent of incidents.</p>
+        <!-- Graphic container-->
+        <div class="graphic-container" graphics>
+              <h2>How often were resource officers present?</h2>
+              <p>School resource officers were commonly not present at the scene of school shooting incidents.</p>
+              <div id="officers"></div>
+              <em>Source: Data collected by The Washington Post</em>
+        </div>
+        <!-- End Graphic container-->
+        <p>The presence of a school resource officer is widely seen as a positive security measure, though has produced mixed results in the past. A single school resource officer is credited with stopping an incident at a Great Falls High School in Maryland in 2018 after firing at the shooter. A school resource officer was widely criticized, and later resigned, for his behavior during the Parkland High School shooting in 2018, when he was accused of staying outside of the school during the rampage.</p>
+        <p>The surviving victims of school shootings are increasingly putting pressure on state and national legislators to pass stricter gun control laws and take action on mass shootings. This video from The New York Times features school shooting survivors talking about their desire to see action taken by lawmakers.</p>
+        <figure class="col-md-8 offset-md-2">
+        <iframe title="New York Times Video - Embed Player" width="480" height="321" frameborder="0" scrolling="no" allowfullscreen="true" marginheight="0" marginwidth="0" id="nyt_video_player" src="https://www.nytimes.com/video/players/offsite/index.html?videoId=100000005743406"></iframe>
+        </figure>
+        <p>The survivors of the Parkland High School shooting have come out on the national stage as a driving force promoting the passage of new gun legislation to protect against future school shootings.</p>
       </div>
 <!-- End Text Component -->
 
-<div graphics>
+<!--photo-->
+<div class="col-md-10 offset-md-1">
+<figure>
+  <img class=stack-image src="Witt-Florida-Rally.jpg" alt="Emma Gonzalez">
+  <figcaption class="caption">Emma González, a senior at Marjory Stoneman Douglas High School, speaks at a rally for gun control. (Photo from People Magazine.)</figcaption>
+</figure>
+</div>
+<!--end photo-->
 
-<!-- First Graphic Container -->
-<div class="col-md-12 offset-md-3" graphics>
-<div class="graphic-container">
-   <h2>Book Circulation at UMD Libraries</h2>
-   <p>Circulation has decreased steadily over the past decade, with the exception of a slight uptick in 2018.</p>
- <div id="myLineChart"></div>
- <em>Source: University of Maryland Library System</em>
- </div>
-</div>
-<!-- End First Graphic Container -->
+<!-- Start Text Component -->
+      <div class="col-md-8 offset-md-2 reuse-text">
+        <div class= "stars">
+          <img "display: inline" src="star-red.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-blue.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-red.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-blue.png" class="star" width="15px" hspace="5px">
+        </div>
+        <h3>3. A profile of the shooters</h3>
+        <p>The vast majority of school shooters are young white men.</p>
+        <p>According to the data collected by the Post, 95 percent of school shooters were male. Similarly, most shooters were white; 55 percent of school shooters were white and 33 percent were black, as seen in the chart below. The average age of school shooters is 19 years old. Four of the school shooters were under 10-years-old and fourteen were over 40. Most shooters were students or former students of the school where the shooting occured.</p>
+        <!--Graphic Container -->
+        <div class="graphic-container" graphics>
+            <h2>What race are school shooters likely to be?</h2>
+            <p>School shooters were majority white.</p>
+            <div id="ShootersRaceChart"></div>
+            <em>Source: Data collected by The Washington Post</em>
+        </div>
+        <!-- End graphic container -->
+        <p>Beyond them demographic profiles, there is debate about the common characteristics of school shooters. For example, though mental illness and childhood abuse are often cited as causes, the exact role these issues play is widely debated. One common characteristic, according to an FBI report about school shooters, is that shooters share their plans with at least one other person in around 80 percent of cases.</p>
+        <p>Dr. George S. Everly, Jr. of the Johns Hopkins School of Medicine says that shooters are often motivated by anger and revenge. They tend to be socially awkward, isolated and suffer from a lack of adult supervision. He also spoke of the effects of media contagion, or copycat killings, on school shooters.</p>
+      </div>
+<!-- End Text Component -->
 
-<!--Second Graphic Container-->
-<div class="col-md-12 offset-md-3" graphics>
-<div class="graphic-container">
-  <h2>Print v. eBook circulation in 2018 </h2>
-  <p>eBooks were accessed far more than print books.</p>
- <div id="ebookvprintpie"></div>
- <em>Source: University of Maryland Library System</em>
-</div>
-</div>
- <!-- End Second Graphic Container-->
+<!-- Start Text Component -->
+      <div class="col-md-8 offset-md-2 reuse-text">
+        <div class= "stars">
+          <img "display: inline" src="star-red.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-blue.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-red.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-blue.png" class="star" width="15px" hspace="5px">
+        </div>
+        <h3>4. The deadliest school shootings in America</h3>
+        <p>The two most deadly shootings in modern American history occurred within the last few years. The Sandy Hook Elementary School shooting killed 26 people. The shooting at Marjory Stoneman Douglas High School killed 17. The deadliest school shooting in U.S. history occurred in 1927 in Bath Township, Michigan when a school board treasurer killed 38 elementary school students and six adults.</p>
+        <div class="graphic-container" graphics>
+          <h2>Timeline: Worst school shootings since Columbine</h2>
+          <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=1-5osrPVsIq6M1wAxP6D1Qcpdy4fYYp0KrDTFLMmxLtM&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
+          <em>Source: The Washington Post, Stanford University</em>
+        </div>
+      </div>
+<!-- End Text Component -->
 
- <!-- Third Graphic Container -->
- <div class="col-md-12 offset-md-3" graphics>
-<div class="graphic-container">
-  <h2>What race are school shooters likely to be?</h2>
-  <div id="ShootersRaceChart"></div>
-  <em>Source: Data collected by The Washington Post</em>
-</div>
-</div>
-<!-- End third graphic container -->
+<!-- Start Text Component -->
+      <div class="col-md-8 offset-md-2 reuse-text">
+        <div class= "stars">
+          <img "display: inline" src="star-red.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-blue.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-red.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-blue.png" class="star" width="15px" hspace="5px">
+        </div>
+        <h3>School shooting data</h3>
+        <p>School shooting data is surprisingly messy and hard to come by. There are few government or academic studies on the subject and those that do exist are mostly outdated. Further, school shooting data tends to be messy and hard to deal with. According to <a href="https://www.theatlantic.com/education/archive/2018/02/another-school-shootingbut-whos-counting/553412/" target= _blank>The Atlantic</a>, the parameters of school shooting incidents makes data inconsistent.</p>
+      </div>
+<!-- End Text Component -->
 
-<!-- Story Map -->
-<div class="col-md-12 offset-md-3" graphics>
-<iframe src="https://uploads.knightlab.com/storymapjs/3d13f57b390dd192da11378ec4b55a53/worst-school-shootings/draft.html" frameborder="0" width="100%" height="800"></iframe>
-</div>
-<!-- End Story Map -->
+<!-- Start Text Component -->
+      <div class="col-md-8 offset-md-2 reuse-text">
+        <div class= "stars">
+          <img "display: inline" src="star-red.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-blue.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-red.png" class="star" width="15px" hspace="5px">
+          <img "display: inline" src="star-blue.png" class="star" width="15px" hspace="5px">
+        </div>
+        <h3>My sources</h3>
+        <ul>
+          <li><a href="https://github.com/washingtonpost/data-school-shootings" target=_blank>Washington Post School Shootings Data</a></li>
+          <li><a href="https://github.com/StanfordGeospatialCenter/MSA" target=_blank>Stanford Mass Shootings in American Data</a></li>
+          <li><a href="https://www.theatlantic.com/education/archive/2018/02/another-school-shootingbut-whos-counting/553412/" target=_blank>Why school shooting data is messy</a></li>
+          <li><a href="https://www2.ed.gov/admins/lead/safety/preventingattacksreport.pdf" target=_blank>Implications for the Prevention of School Attacks in the United States</a></li>
+          <li><a href="https://www.psychologytoday.com/us/blog/when-disaster-strikes-inside-disaster-psychology/201803/profiling-school-shooters" target=_blank>Profiling school shooters</a></li>
+        </ul>
+        <h3>Other sources of school shooting data</h3>
+        <ul>
+          <li><a href="https://www.motherjones.com/politics/2012/12/mass-shootings-mother-jones-full-data/" target=_blank>Mother Jones US Mass Shootings Data</a></li>
+          <li><a href="https://www.massshootingtracker.org/data" target=_blank>Mass Shootings tracker</a></li>
+          <li><a href="https://www.schoolshootingdatabase.com/" target=_blank>School Shootings Database</a></li>
+        </ul>
+      </div>
+<!-- End Text Component -->
 
 </div>
+</div>
+
+
 
 <!-- Start Footer -->
 <div class="container-fluid footer">
@@ -208,60 +330,115 @@ Copyright 2019. Name Tk.
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
-  <!-- c3 script-->
-  <script type="text/javascript">
-     //CHART 1
-     var chart = c3.generate({
-       bindto: '#myLineChart',
-       data: {
-         x: 'x',
-         columns: [
-           ['x', 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
-           ['Number of incidents', 278158, 246731, 208698, 181838, 161836, 147441, 139150, 125398, 103955, 120132],
-         ]
-       },
-       color: {
-         pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
-       }
-     });
-
-     var chart2 = c3.generate({
-    bindto: '#ebookvprintpie',
-    data: {
-      columns: [
-        ['Print', 120132],
-        ['eBook', 1529631],
-      ],
-      type: 'pie'
-    },
-    color: {
-      pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895', '#fae255', '#af3d46', '#f8bb63', '#818281']
-    }
-  });
-
-  var chart3 = c3.generate({
- bindto: '#ShootersRaceChart',
- data: {
-   // iris data from R
-   columns: [
-     ['Asian', 1],
-     ['American Indian', 3],
-     ['Black', 35],
-     ['Hispanic', 6],
-     ['White', 60],
-   ],
-   type : 'bar',
-   onclick: function (d, i) { console.log("onclick", d, i); },
-   onmouseover: function (d, i) { console.log("onmouseover", d, i); },
-   onmouseout: function (d, i) { console.log("onmouseout", d, i); }
- },
- color: {
-   pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
- }
+<!-- c3 script-->
+<script type="text/javascript">
+//CHART 1
+var chart = c3.generate({
+bindto: '#shootingsByYearChart',
+data: {
+  x: 'x',
+  columns: [
+    ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+    ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
+  ]
+},
+color: {
+  pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+}
 });
-  </script>
-  <!-- End c3 script -->
 
+var chart2 = c3.generate({
+bindto: '#ruralvscity',
+data: {
+  columns: [
+    ['City', 101],
+    ['Suburb', 58],
+    ['Town', 24],
+    ['Rural', 31],
+  ],
+    type: 'pie',
+  },
+color: {
+  pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+}
+});
+
+var chart3 = c3.generate({
+bindto: '#carnage',
+data: {
+  x: 'x',
+  columns: [
+    ['x', 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018],
+    ['Number of incidents', 7, 12, 13, 5, 11, 9, 13, 15, 10, 9, 9, 9, 7, 11, 13, 16, 7, 13, 14, 12],
+    ['Killed', 14, 4, 5, 1, 5, 3, 9, 9, 1, 5, 1, 3, 2, 32, 3, 6, 0, 2, 5, 21],
+    ['Injured', 35, 3, 22, 7, 7, 9, 17, 16, 17, 5, 4, 6, 9, 8, 13, 14, 2, 18, 15, 44],
+  ]
+},
+color: {
+  pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+}
+});
+
+var chart4 = c3.generate({
+bindto: '#bytype',
+data: {
+  columns: [
+    ['Targeted', 130],
+    ['Indiscriminate', 42],
+    ['Accidental', 25],
+    ['Targeted and indiscriminate', 5],
+    ['Public suicide', 4],
+    ['Unclear', 3],
+    ['Hostage suicide', 2],
+    ['Accidental or targeted', 2],
+    ['Public suicide (attempted)', 1],
+  ],
+    type: 'bar',
+    onclick: function (d, i) { console.log("onclick", d, i); },
+    onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+    onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+  },
+color: {
+  pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+}
+});
+
+var chart5 = c3.generate({
+bindto: '#officers',
+data: {
+  columns: [
+    ['Present', 75],
+    ['Not present', 140],
+  ],
+    type: 'pie',
+  },
+color: {
+  pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+}
+});
+
+var chart6 = c3.generate({
+bindto: '#ShootersRaceChart',
+data: {
+ // iris data from R
+ columns: [
+   ['Asian', 1],
+   ['American Indian', 3],
+   ['Black', 35],
+   ['Hispanic', 6],
+   ['White', 60],
+ ],
+ type : 'bar',
+ onclick: function (d, i) { console.log("onclick", d, i); },
+ onmouseover: function (d, i) { console.log("onmouseover", d, i); },
+ onmouseout: function (d, i) { console.log("onmouseout", d, i); }
+},
+color: {
+ pattern: ['#2a8dc5', '#455380', '#ee6a4b', '#60c4b2', '#973895']
+}
+});
+
+</script>
 
 </body>
 </html>

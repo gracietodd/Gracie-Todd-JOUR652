@@ -18,6 +18,10 @@ a:visited{
 
 p{
 line-height:180%;
+font-family: "PT serif";
+font-size: 1em;
+color: black;
+max-width: 100%;
 }
 
 .red {
@@ -71,8 +75,7 @@ h1{
 
 .sub{
   font-size: 1em;
-  padding-left: 400px;
-  padding-right: 400px;
+  text-align: center;
 }
 
 .first-text{
@@ -103,4 +106,36 @@ h3{
 .reuse-text{
   margin-top: 24px;
   margin-bottom: 24px;
+}
+
+.stack-image{
+  width:100%;
+  max-width:900px;
+  margin:0 auto;
+  padding-top:30px;
+  display: block;
+}
+
+.caption{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  font-family: 'Montserrat' sans-serif;
+  color:#999;
+}
+
+.graphic-container{
+  font-family: 'Montserrat' sans-serif;
+  color: #444;
+  padding-top:30px;
+  padding-bottom:30px;
+  border-top:1px solid #cdcdcd;
+  border-bottom:1px solid #cdcdcd;
+  font-family: 'Montserrat', sans-serif;
+  margin:0 auto;
+}
+
+.graphic-container h4{
+  font-size: 1.5em;
 }
