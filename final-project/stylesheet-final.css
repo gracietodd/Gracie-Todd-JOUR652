@@ -19,10 +19,17 @@ h1, h2{
 
 h1{
   font-size: 50px;
+  margin: 0 auto;
 }
 
-p, byline, figcaption{
+p, figcaption{
   font-size: 20px;
+  text-align: left;
+}
+
+byline{
+  font-size: 20px;
+  margin: 0 auto;
 }
 
 .graphics{
@@ -52,6 +59,7 @@ width: 100%;
 
 figcaption{
   text-align: center;
+  font-size: 15px;
 }
 
 .main-image{
@@ -60,15 +68,13 @@ figcaption{
   margin-right: 0;
   margin-left: 0;
   width: 100%;
-}
-
-.mckeldin{
-  height: 700px;
+  height: auto;
 }
 
 h2{
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .graphics h2{
@@ -78,8 +84,9 @@ h2{
 .spines{
   display: block;
   text-align: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 50px;
+  margin-bottom: 2px;
+  margin-right: 0px;
 }
 
 .footer{
@@ -93,4 +100,12 @@ h2{
 
 #AT{
   font-family: "American Typewriter";
+}
+
+a:link{
+  color: gray;
+}
+
+a:visited{
+  color: #a34822;
 }
